@@ -64,8 +64,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CameraControl.cs" />
-    <Compile Include="Assets\MouseInteract.cs" />
+    <Compile Include="Assets\Scripts\CameraControl.cs" />
+    <Compile Include="Assets\Scripts\MouseInteract.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -597,8 +597,20 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/WERK/2021/AfterHrs/UNITY/GBGD_Proj1/CarGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>D:/WERK/2021/AfterHrs/UNITY/GBGD_Proj1/CarGame/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>D:/WERK/2021/AfterHrs/UNITY/GBGD_Proj1/CarGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>D:/WERK/2021/AfterHrs/UNITY/GBGD_Proj1/CarGame/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>D:/WERK/2021/AfterHrs/UNITY/GBGD_Proj1/CarGame/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>D:/WERK/2021/AfterHrs/UNITY/GBGD_Proj1/CarGame/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/WERK/2021/AfterHrs/UNITY/GBGD_Proj1/CarGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -615,29 +627,17 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>D:/WERK/2021/AfterHrs/UNITY/GBGD_Proj1/CarGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>D:/WERK/2021/AfterHrs/UNITY/GBGD_Proj1/CarGame/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>D:/WERK/2021/AfterHrs/UNITY/GBGD_Proj1/CarGame/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>D:/WERK/2021/AfterHrs/UNITY/GBGD_Proj1/CarGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>D:/WERK/2021/AfterHrs/UNITY/GBGD_Proj1/CarGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>D:/WERK/2021/AfterHrs/UNITY/GBGD_Proj1/CarGame/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>D:/WERK/2021/AfterHrs/UNITY/GBGD_Proj1/CarGame/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder">
-      <HintPath>D:/WERK/2021/AfterHrs/UNITY/GBGD_Proj1/CarGame/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>D:/WERK/2021/AfterHrs/UNITY/GBGD_Proj1/CarGame/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>D:/WERK/2021/AfterHrs/UNITY/GBGD_Proj1/CarGame/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>D:/WERK/2021/AfterHrs/UNITY/GBGD_Proj1/CarGame/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
