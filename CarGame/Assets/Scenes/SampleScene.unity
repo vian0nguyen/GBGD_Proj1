@@ -127,7 +127,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3182
+  m_Name: pb_Mesh14606
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -290,7 +290,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-10210
+  m_Name: pb_Mesh14550
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -476,6 +476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f399989cbed948e428fa89ab687a3520, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clickingOn: 
 --- !u!4 &48552010
 Transform:
   m_ObjectHideFlags: 0
@@ -1940,6 +1941,7 @@ GameObject:
   - component: {fileID: 1241770046}
   - component: {fileID: 1241770045}
   - component: {fileID: 1241770044}
+  - component: {fileID: 1241770049}
   m_Layer: 0
   m_Name: Cube Object
   m_TagString: Object
@@ -1987,7 +1989,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 7eea670ebc400114b97dc3630c596507, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2238,6 +2240,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1241770049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241770043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cc0f8cef8c99c4ab5348e77a8feae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickObject: CD
+  objRenderer: {fileID: 0}
+  objectColorChange: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1381449503
 GameObject:
   m_ObjectHideFlags: 0
@@ -2279,7 +2296,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-17288
+  m_Name: pb_Mesh14564
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2442,7 +2459,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-7942
+  m_Name: pb_Mesh14594
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2605,7 +2622,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-12106
+  m_Name: pb_Mesh14640
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2775,6 +2792,7 @@ GameObject:
   - component: {fileID: 1511538284}
   - component: {fileID: 1511538283}
   - component: {fileID: 1511538282}
+  - component: {fileID: 1511538287}
   m_Layer: 0
   m_Name: Cube Interactive
   m_TagString: Interactive
@@ -3073,6 +3091,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1511538287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511538281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cc0f8cef8c99c4ab5348e77a8feae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickObject: Glove Box
+  objRenderer: {fileID: 0}
+  objectColorChange: {r: 0.8490566, g: 0.59674263, b: 0.59674263, a: 0}
 --- !u!1 &1513510531
 GameObject:
   m_ObjectHideFlags: 0
@@ -3754,7 +3787,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-17360
+  m_Name: pb_Mesh14536
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3917,7 +3950,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14548
+  m_Name: pb_Mesh14628
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
